@@ -1,5 +1,5 @@
-@import 'colors';
-@import 'price-card';
+@use 'colors';
+@use 'price-card';
 * {
 	box-sizing: border-box;
 }
@@ -8,7 +8,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	font-family: 'Montserrat', sans-serif;
-	color: $color-text;
+	color: colors.$text;
 }
 .table {
 	width: 1440px;
@@ -16,20 +16,20 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: $color-table;
+	background-color: colors.$table;
 }
 .cards {
 	display: flex;
 	gap: 18px;
 }
 .card-1 {
-	background-color: $color-card1;
+	background-color: colors.$card1;
 }
 .card-2 {
-	background-color: $color-card2;
+	background-color: colors.$card2;
 }
 .card-3 {
-	background-color: $color-card3;
+	background-color: colors.$card3;
 }
 .badge-1 {
 	display: none;
