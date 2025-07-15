@@ -1,0 +1,14 @@
+.price-card {
+	&:nth-child(3) {
+		margin-right: 132px;
+
+		.price-card__price,
+		.price-card__order_button {
+			background-color: $orange-color;
+		}
+
+		.price-card__options-list_element-check {
+			background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+		}
+	}
+}
