@@ -6,10 +6,6 @@ Icons and colors are easily customizable for quick replacement. The “Popular�
 
 This layout is optimized for desktop resolutions (up to 1440px).
 
-## 🔗 Live Demo
-
-[View on GitHub Pages](https://roman-gromcode.github.io/Price-cards-lauout)
-
 ## 🛠️ Technologies Used
 
 - HTML5  
