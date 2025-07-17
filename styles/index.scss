@@ -2,23 +2,23 @@
 @import 'priceCards';
 @import 'card1';
 @import 'card2';
-@import 'card3'; 
+@import 'card3';
 
 * {
-	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
-	color: #fff;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }
 
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .price-tables {
-	height: 1000px;
-	background-color: #141b1c;
-	display: flex;
+  height: 1000px;
+  background-color: #141b1c;
+  display: flex;
 }
