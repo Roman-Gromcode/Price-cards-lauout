@@ -11,19 +11,19 @@
   justify-content: center;
   align-items: center;
 }
-.price-card__title_rate, .price-card__title_website {
+.price-card__title .title__rate {
   margin: 0;
-  text-align: center;
-}
-.price-card__title_rate {
   line-height: 43px;
   font-size: 35px;
   font-weight: 700;
+  text-align: center;
 }
-.price-card__title_website {
+.price-card__title .title__website {
+  margin: 0;
   line-height: 24px;
   font-size: 20px;
   font-weight: 300;
+  text-align: center;
 }
 .price-card__price {
   height: 105px;
