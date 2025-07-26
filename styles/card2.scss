@@ -1,6 +1,6 @@
 .price-card {
   &:nth-child(2) {
-    margin-right: 18px;
+    // margin-right: 18px;
     overflow: hidden;
 
     .price-card__badge {
@@ -38,8 +38,4 @@
       background-color: $blue-color;
     }
   }
-}
-
-.check-card-2 {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
