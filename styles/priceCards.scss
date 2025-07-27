@@ -84,12 +84,12 @@
     }
   }
 
-  .price-card__options-list {
+  &__options-list {
     margin: 0;
     padding: 0;
   }
 
-  .price-card__list_item {
+  &__list_item {
     height: 50px;
     display: flex;
     align-items: center;
@@ -148,23 +148,5 @@
     &-orange {
       background-color: $orange-color;
     }
-  }
-}
-
-.price-card__options-list {
-  margin: 0;
-  padding: 0;
-}
-
-.price-card__list_item {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-  font-weight: 300;
-  letter-spacing: 0.5;
-
-  &:nth-child(odd) {
-    background-color: rgba(42, 52, 56, 0.5);
   }
 }
