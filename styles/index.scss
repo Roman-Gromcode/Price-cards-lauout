@@ -1,8 +1,5 @@
 @import 'variables';
 @import 'priceCards';
-@import 'card1';
-@import 'card2';
-@import 'card3';
 
 * {
   box-sizing: border-box;
@@ -18,7 +15,7 @@ body {
   background-color: #141b1c;
 }
 
-.price-tables {
+.price-cards {
   height: 1000px;
   display: flex;
   gap: 18px;
