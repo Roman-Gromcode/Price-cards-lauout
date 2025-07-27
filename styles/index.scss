@@ -9,14 +9,16 @@
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+  // align-items: center;
   height: 100vh;
+  overflow: hidden;
   background-color: #141b1c;
 }
 
 .price-cards {
-  height: 1000px;
+  // height: 1000px;
+  margin: auto;
   display: flex;
   gap: 18px;
 }

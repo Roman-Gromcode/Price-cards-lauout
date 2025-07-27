@@ -1,7 +1,7 @@
 .price-card {
   width: 380px;
+  height: 770px;
   background-color: #334247;
-  margin: 115px 0;
   position: relative;
   overflow: hidden;
 }
@@ -136,14 +136,13 @@
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  overflow: hidden;
   background-color: #141b1c;
 }
 
 .price-cards {
-  height: 1000px;
+  margin: auto;
   display: flex;
   gap: 18px;
 }
