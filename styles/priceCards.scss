@@ -50,15 +50,15 @@
     justify-content: center;
     align-items: center;
 
-    &-green {
+    &_green {
       background-color: $green-color;
     }
 
-    &-blue {
+    &_blue {
       background-color: $blue-color;
     }
 
-    &-orange {
+    &_orange {
       background-color: $orange-color;
     }
   }
@@ -69,19 +69,10 @@
   }
 
   &__description {
-    height: 116px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &_text {
-      width: 328px;
-      height: 36px;
-      font-size: 15px;
-      font-weight: 300;
-      line-height: 100%;
-      text-align: center;
-    }
+    margin: 40px 26px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
   }
 
   &__options-list {
@@ -137,15 +128,15 @@
     font-size: 14px;
     cursor: pointer;
 
-    &-green {
+    &_green {
       background-color: $green-color;
     }
 
-    &-blue {
+    &_blue {
       background-color: $blue-color;
     }
 
-    &-orange {
+    &_orange {
       background-color: $orange-color;
     }
   }
